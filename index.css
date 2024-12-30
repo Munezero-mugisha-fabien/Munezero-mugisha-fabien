@@ -1,0 +1,37 @@
+/* =========================== APPLICABLE CSS IN HOLY PAGES ================= */
+:root{
+  --Primary-color:black;
+  --secondary-color:white;
+}
+*{
+  font-family: "poppines",sans-serif;
+}
+/* =========================== END OF APPLICABLE CSS IN HOLY PAGESE ================= */
+/* =========================== BIGIN OF NAVIGATION CSS ================= */
+ li,a, ul {
+  
+  color: var(--secondary-color);
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  gap: 4rem;
+  justify-content: center;
+  height: 3rem;  
+  
+   
+}
+.Naviga{
+  background-color: var(--Primary-color);
+  align-content: center;
+  width: 100%;
+  
+  
+  
+}
+
+.Footer{
+  background-color: var(--Primary-color);
+  color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
